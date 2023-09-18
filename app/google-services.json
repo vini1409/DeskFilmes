@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828785304801",
+    "project_id": "bancofilme-2c518",
+    "storage_bucket": "bancofilme-2c518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828785304801:android:f14aea3efc55f042ce03a0",
+        "android_client_info": {
+          "package_name": "com.example.fimeff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrEbzLtfREfxljk-wj7Qhs7oiH3EOasOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fimeff.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.example.fimeff.BuscaFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_busca" />
+
+    <fragment
+        android:id="@+id/nav_person"
+        android:name="com.example.fimeff.PersonFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_person" />
+    <fragment
+        android:id="@+id/nav_biblioteca"
+        android:name="com.example.fimeff.BibliotecaFragment"
+        android:label="@string/menu_BIBLIOTECA"
+        tools:layout="@layout/fragment_biblioteca" />
+    <fragment
+        android:id="@+id/nav_gps"
+        android:name="com.example.fimeff.GpsFragment"
+        android:label="@string/menu_GPS"
+        tools:layout="@layout/fragment_gps" />
+    <fragment
+        android:id="@+id/nav_exit"
+        android:name="com.example.fimeff.ExitFragment"
+        android:label="@string/menu_EXIT"
+        tools:layout="@layout/fragment_exit" />
+
+
+</navigation>

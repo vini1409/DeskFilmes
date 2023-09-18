@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.fimeff.FirstFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BuscarFragment"
+        android:name="com.example.fimeff.BuscaFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_busca">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/BuscarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BiblotecaFragment"
+        android:name="com.example.fimeff.BibliotecaFragment"
+        android:label="Biblioteca"
+        tools:layout="@layout/fragment_busca">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/BuscarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PersonFragment"
+        android:name="com.example.fimeff.PersonFragment"
+        android:label="Person"
+        tools:layout="@layout/fragment_person">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/PersonFragment" />
+    </fragment>
+</navigation>

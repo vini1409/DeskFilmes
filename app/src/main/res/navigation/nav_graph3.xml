@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph3"
+    app:startDestination="@id/nav_acao">
+
+    <fragment
+        android:id="@+id/nav_acao"
+        android:name="com.example.fimeff.Genero.AcaoFragment"
+        android:label="@string/menu_main_acao"
+        tools:layout="@layout/fragment_acao" />
+    <fragment
+        android:id="@+id/nav_ficcao"
+        android:name="com.example.fimeff.Genero.FiccaoFragment"
+        android:label="@string/menu_main_ficcao"
+        tools:layout="@layout/fragment_ficcao" />
+    <fragment
+        android:id="@+id/nav_romance"
+        android:name="com.example.fimeff.Genero.RomanceFragment"
+        android:label="@string/menu_main_romance"
+        tools:layout="@layout/fragment_romance" />
+    <fragment
+        android:id="@+id/nav_comedia"
+        android:name="com.example.fimeff.Genero.ComediaFragment"
+        android:label="@string/menu_main_comedia"
+        tools:layout="@layout/fragment_comedia" />
+</navigation>
